@@ -2,6 +2,7 @@ body {
   display: flex;
   flex-direction: column;
   margin: 0;
+  font-family: Arial, 'Times New Roman', serif;
 }
 
 .header, 
@@ -9,14 +10,6 @@ body {
   display: flex;
   background-color: #1F2937;
   margin: 0;
-}
-
-.header,
-.head,
-.secondaryText,
-.title,
-.signUp {
-  font-family: Arial, 'Times New Roman', serif;
 }
 
 .header {
@@ -34,7 +27,7 @@ body {
 
 }
 
-ul {
+.ownerInfo {
   list-style-type: none;
   display: flex;
   gap: 20px

@@ -12,7 +12,7 @@
   color: darkcyan;
 }
 
-.test {
+.shoulderContainer {
   display: flex;
   justify-content: center;
   flex-wrap: wrap;

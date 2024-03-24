@@ -4,91 +4,93 @@
   <head>
     <meta charset="UTF-8"> 
     <title>Landing Page</title>
-    <link rel="stylesheet" href="./css/head.css">
-    <link rel="stylesheet" href="./css/shoulders.css">
-    <link rel="stylesheet" href="./css/hips.css">
-    <link rel="stylesheet" href="./css/legs.css">
-    <link rel="stylesheet" href="./css/footer.css">
+    <link rel="stylesheet" href="./css/styles.css">
   </head>
   <body> 
     <!-- HEAD -->
-
-    <div class="header">
-      <img src="./img/logo.png" width="300px" height="auto" alt="Logo" class="logo">
-
-      <ul class="ownerInfo">
-        <li>
-          <a href="https://github.com/ItsTosh" rel="noreferrer noopener" target="_blank">Profile</a>
-        </li>
-        <li>
-          <a href="https://www.theodinproject.com/lessons/foundations-landing-page" rel="noreferrer noopener" target="_blank">About</a>
-        </li>
-        <li>
-          <a href="https://youtu.be/xvFZjo5PgG0?si=WHwGsNx7k0MPLj-Z" rel="noreferrer noopener" target="_blank">Contact</a>
-        </li>
-      </ul>
-    </div>
-
-    <div class="head">
-      <div class="info">
-        <h1 class="title">Hard work beats talent</h1>
-
-        <p class="secondaryText">
-          Feeling inferior? Feeling like you can
-          never be good enough? Remember. Hardwork
-          beats talent when talent doesn't work hard.
-        </p>
-
-        <button class="signUp">Sign up</button>
+    <header>
+      <nav>
+        <img src="./img/logo.png" width="300px" height="auto" alt="Logo" class="logo">
+  
+        <ul class="navBarLinks">
+          <li>
+            <a href="https://github.com/ItsTosh" rel="noreferrer noopener" target="_blank">Profile</a>
+          </li>
+          <li>
+            <a href="https://www.theodinproject.com/lessons/foundations-landing-page" rel="noreferrer noopener" target="_blank">About</a>
+          </li>
+          <li>
+            <a href="https://youtu.be/xvFZjo5PgG0?si=WHwGsNx7k0MPLj-Z" rel="noreferrer noopener" target="_blank">Contact</a>
+          </li>
+        </ul>
+      </nav>
+  
+      <div class="head">
+        <div class="headInfo">
+          <h1 class="heroMainText">Hard work beats talent</h1>
+  
+          <p class="heroSecText">
+            Feeling inferior? Feeling like you can
+            never be good enough? Remember. Hardwork
+            beats talent when talent doesn't work hard.
+          </p>
+  
+          <button class="signUp">Sign up</button>
+        </div>
+  
+        <img src="./img/code.jpg" width="120px" height="auto" alt="Eat, sleep, code, repeat img" class="codeImg">
       </div>
-
-      <img src="./img/code.jpg" width="120px" height="auto" alt="Eat, sleep, code, repeat img" class="codeImg">
-    </div>
+    </header>
 
     <!-- SHOULDERS -->
 
-    <h2 class="subTitle">Feeling burnt out? <span class="travel">Travel now</span></h2>
+    <h2>Feeling burnt out? <span>Travel now</span></h2>
 
-    <div class="shoulderContainer">
+    <main>
       <ul class="countries">
-        <div class="extraInfo">
-          <li><img src="./img/philippines.jpg" width="300px" height="auto" alt="Philippines image" class="country"></li>
-          <p class="infoP">Mabuhay! The Philippines is a beautiful country with gorgeous beaches and great food.</p>
-        </div>
+          <li class="countryList">
+            <img src="./img/philippines.jpg" width="300px" height="auto" alt="Philippines image" class="country">
+            <p class="infoP">
+              Mabuhay! The Philippines is a beautiful country with gorgeous beaches and great food.
+            </p>
+          </li>
 
-        <div class="extraInfo">
-          <li><img src="./img/japan.jpg" width="300px" height="auto" alt="Japan image" class="country"></li>
-          <p class="infoP">Konnichiwa! Japan is an island country in East Asia with high technological advancements.</p>
-        </div>
+          <li class="countryList">
+            <img src="./img/japan.jpg" width="300px" height="auto" alt="Japan image" class="country">
+            <p class="infoP">
+              Konnichiwa! Japan is an island country in East Asia with high technological advancements.
+            </p>
+          </li>
 
-        <div class="extraInfo">      
-          <li><img src="./img/korea.jpg" width="300px" height="auto" alt="Korea image" class="country"></li>  
-          <p class="infoP">Annyeonghaseyo! Korea is a beautiful country known for K-dama, pop cultures and beautiful land.</p>  
-        </div>
+          <li class="countryList">
+            <img src="./img/korea.jpg" width="300px" height="auto" alt="Korea image" class="country">
+            <p class="infoP">
+              Annyeonghaseyo! Korea is a beautiful country known for K-dama, pop cultures and beautiful land.
+            </p>  
+          </li>  
 
-        <div class="extraInfo">
-          <li><img src="./img/switzerland.jpg" width="300px" height="auto" alt="switzerland image" class="country"></li>
-          <p class="infoP">Grüezi! Switzerland is a great place if you like skiing resorts, lakes, chocolate, and cheese.</p>
-        </div>
+          <li class="countryList">
+            <img src="./img/switzerland.jpg" width="300px" height="auto" alt="switzerland image" class="country">
+            <p class="infoP">
+              Grüezi! Switzerland is a great place if you like skiing resorts, lakes, chocolate, and cheese.
+            </p>
+          </li>
       </ul>
-    </div>
+    </main>
 
     <!-- HIPS -->
 
     <div class="hipsContainer">
-      <div class="hipsSubContainer">
         <p class="quote">“Push through the pain. Giving up hurts more.”</p>
         <div class="author">
           - Vegeta, Prince of all Sayians
         </div>
-      </div>
     </div>
 
     <!-- LEGS -->
 
     <div class="legsContainer">
       <div class="legsSubContainer">
-          <div class="legsSubExtra">
             <h3>It's time to become different!</h3>
             <div class="subDiv">
               <p>
@@ -98,14 +100,13 @@
               <button class="legSignUp">Sign up</button>
             </div>
         </div>
-      </div>
     </div>
 
     <!-- FOOTER -->
 
-    <div class="footer">
-      Copyright © The Odin Project 2021
-    </div>
+    <footer>
+      <p>Copyright © The Odin Project</p>
+    </footer>
   </div>
   </body>
 </html>

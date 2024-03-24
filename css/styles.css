@@ -135,6 +135,7 @@ span {
 
 .quote,
 .author {
+  color: black;
   display: flex;
   flex-wrap: wrap;
   width: 425px;
